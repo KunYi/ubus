@@ -17,8 +17,8 @@
 #include <libubus.h>
 #include <libubox/blobmsg.h>
 #include <libubox/blobmsg_json.h>
-#include <lauxlib.h>
-#include <lua.h>
+#include <lua5.1/lauxlib.h>
+#include <lua5.1/lua.h>
 
 #define MODNAME		"ubus"
 #define METANAME	MODNAME ".meta"
